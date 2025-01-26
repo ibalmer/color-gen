@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{ background: rgb(255,255,255);
+    background: linear-gradient(90deg, rgb(103, 103, 103) 0%, rgb(71, 71, 71) 25%, rgb(66, 66, 66) 50%, rgb(34, 34, 34) 75%, rgba(0,0,0,1) 100%); }
+h1{ 
+    margin-block: 2rem;
+    justify-self: center;
+}
+.color-box{
+    margin: 3rem;
+    width: 300px;
+    height: 300px;
+    background-color: rgba(0, 0, 0, 0, 1);
+    border: 3px solid black;
+    border-radius: 8px;
+}
+
+.color-gen{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+.color-list{
+    gap: 1rem;
+}
+.output{
+    justify-self: center;
+}

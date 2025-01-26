@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Color Gen</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>COLOR GEN</h1>
+    <section class="color-gen">        
+        <div class="color-box"></div>
+        <ul class="color-list">
+            <li>
+                <h4>Rojo</h4>
+                <input class="input-r" type="number" value="0" min="0" max="255">
+                <input class="red-bar" type="range" name="red" id="red" min="0" max="255" value="0">
+            </li>
+            <li>
+                <h4>Verde</h4>
+                <input class="input-g" type="number" value="0" min="0" max="255">
+                <input class="green-bar" type="range" name="green" id="green" min="0" max="255" value="0">
+            </li>
+            <li>
+                <h4>Azul</h4>
+                <input class="input-b" type="number" value="0" min="0" max="255">
+                <input class="blue-bar" type="range" name="blue" id="blue" min="0" max="255" value="0">
+            </li>
+            <li>
+                <h4>Opacidad</h4>
+                <input class="input-o" type="number" value="1" step="0.05" min="0" max="1">
+                <input class="op-bar" type="range" name="op" id="op" step="0.05" min="0" max="1" value="1">
+            </li>
+        </ul>
+    </section>
+    <h3 class="output"></h3>
+        
+        
+    
+    <script src="index.js"></script>
+</body>
+</html>
